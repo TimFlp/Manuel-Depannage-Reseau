@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="6RdFYyR943UArhQ7CFS1" name="Page-1">
+        <mxGraphModel dx="453" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font color=&quot;#3333ff&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;Ordinateur 1&lt;/b&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="662" y="720" width="78" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font color=&quot;#3333ff&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;Ordinateur 2&lt;/b&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="932" y="720" width="78" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;fontSize=19;fontColor=#3333FF;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="4" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font color=&quot;#3333ff&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;Routeur Mikrotik&lt;/b&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;fontSize=19;labelPosition=center;" vertex="1" parent="1">
+                    <mxGeometry x="802" y="532" width="78" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Internet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;labelBackgroundColor=none;fontColor=#000000;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontSize=33;" vertex="1" parent="1">
+                    <mxGeometry x="769.57" y="110" width="142.86" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;Réseau local 192.168.40.0/24&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="761" y="670" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;fontSize=19;fontColor=#3333FF;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="11" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#3333ff&quot; style=&quot;font-size: 19px&quot;&gt;&lt;b style=&quot;font-size: 19px&quot;&gt;Réseau de l'IUT (simplifié)&lt;/b&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;fontSize=19;labelPosition=center;" vertex="1" parent="1">
+                    <mxGeometry x="802" y="320" width="78" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;b&gt;192.168.40.1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="618.57" y="810" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;192.168.40.2&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="810" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;192.168.40.254&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="654" y="570" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;b&gt;10.203.40.1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="855" y="530" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;b&gt;Réseau de l'IUT&lt;br&gt;10.203.0.0/16&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="841" y="440" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;b&gt;10.203.255.254&lt;br&gt;(gateway)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="862" y="340" width="173" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b&gt;&lt;span style=&quot;background-color: rgb(204 , 229 , 255)&quot;&gt;Réseau que l'on souhaite communiquer avec&lt;/span&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=19;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="220" width="260" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
